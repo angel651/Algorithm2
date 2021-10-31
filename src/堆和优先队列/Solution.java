@@ -18,6 +18,7 @@ public class Solution {
                 pq.enqueue(arr[i]);
             }
         }
+
         int[] res = new int[k];
         for (int i = 0; i < k; i++) {
             res[i] = pq.dequeue();
